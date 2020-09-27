@@ -13,7 +13,7 @@ function MemberFactory() {
     member.type = type;
 
     member.define = function() {
-      return(`${this.name}(${this.type}: ${this.cost})`)
+      console.log(`${this.name}(${this.type}: ${this.cost})`)
     }
 
     return member;
@@ -48,7 +48,9 @@ const div = document.querySelector('div');
 
 members.forEach(member => {
   div.innerHTML += `
-    <span>Name: ${member.define()}</span><br>
+    <span>Name: ${member.name}</span><br>
+    <span>Type: ${member.type}</span><br>
+    <span>Cost: ${member.cost}</span><br>
     <hr>
   `;
 });
