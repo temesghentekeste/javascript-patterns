@@ -20,12 +20,12 @@ This repo tries to explore the popular design patterns available in JavaScript.
 
 <h3>Description <a name = "description"></a></h3>
 <h4>This repo contains such popular design patterns as:</h4>
-    <li>1. Module Pattern</li>
-    <li>2. Singleton Pattern</li>
-    <li>3. Factory Pattern</li>
-    <li>4. Observer Pattern</li>
-    <li>5. Mediator Pattern</li>
-    <li>6. State Pattern</li>
+    <li>Module Pattern</li>
+    <li>Singleton Pattern</li>
+    <li>Factory Pattern</li>
+    <li>Observer Pattern</li>
+    <li>Mediator Pattern</li>
+    <li>State Pattern</li>
 
 
 ## 🔨 Setup<a name = "setup"></a>
