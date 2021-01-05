@@ -54,3 +54,22 @@ const ItemCtrl = (function() {
 ItemCtrl.add({ id: 1, itemName: 'Item 1'});
 let element = document.querySelector('.revealing-module-pattern');
 element.textContent = `${ItemCtrl.get(1).itemName}: Revealing Module Pattern`;
+
+
+// JavaScript does not have a private keyword by default but using closures we can create private methods and private state.
+
+var myModule = (function() {
+  'use strict';
+
+  var _privateProperty = 'Hello World';
+
+  function _privateMethod() {
+    console.log(_privateProperty);
+  }
+
+  return {
+    publicMethod: function() {
+      _privateMethod();
+    }
+  };
+})();
