@@ -1,3 +1,18 @@
+/**
+ * Some ground rules:
+ *  1. Self contained module
+ *    . Everything to do with my module is in my module
+ *    . No global variables
+ *    . If a module manages more than one thing it should be splited up
+ *  2. Separation of concerns
+ *  3. DRY code
+ *  4. Efficient DOM usage
+ *    . No global variables
+ *    . Very few selectors
+ *  5. No memory leaks
+ *    . All events can be unbound
+ */
+
 // Basic structure
 
 /*
